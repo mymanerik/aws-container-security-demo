@@ -1,4 +1,4 @@
-# Project: Automated Container Vulnerability Scanning & Secure Deployment on AWS
+# 🎯Project: Automated Container Vulnerability Scanning & Secure Deployment on AWS
 
 This is a hands-on project demonstrating proactive vulnerability management for containerized applications using the AWS cloud-native toolchain.
 
@@ -6,7 +6,7 @@ Goal: To build, scan, and deploy a container, proving the ability to identify an
 
 This demo also shows the real-world process of debugging a failed container deployment by analyzing logs, patching a dependency vulnerability (Flask/Werkzeug incompatibility), and pushing a fixed image.
 
-# The Process
+# 📜The Process
 
 1. Containerize: A simple Python Flask application was containerized using Docker. (See Dockerfile)
 
@@ -34,7 +34,7 @@ After debugging and pushing a fixed image, the container was successfully deploy
 
 ![Screenshot of Final Deployment](https://github.com/mymanerik/aws-container-security-demo/blob/master/Screenshot%203.png?raw=true)
 
-# Skills Demonstrated
+# 📖Skills Demonstrated
 
 1. Container Security: Proactive vulnerability scanning (CVEs) using AWS ECR.
 
