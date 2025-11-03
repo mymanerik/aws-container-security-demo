@@ -32,7 +32,7 @@ DEMO 3: The "Proof" - The Final Deployment
 
 After debugging and pushing a fixed image, the container was successfully deployed to a serverless AWS Fargate task. The application is live and accessible via its public IP address on port 5000.
 
-![Screenshot of Final Deployment](https://github.com/mymanerik/aws-container-security-demo/blob/master/Screen%20Shot%203.png?raw=true)
+![Screenshot of Final Deployment](https://github.com/mymanerik/aws-container-security-demo/blob/master/ScreenShot%203.png?raw=true)
 
 Skills Demonstrated
 
