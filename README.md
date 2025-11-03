@@ -1,4 +1,4 @@
-#Project: Automated Container Vulnerability Scanning & Secure Deployment on AWS
+#Project: Automated Container Vulnerability Scanning & Secure Deployment on AWS(H1)
 
 This is a hands-on project demonstrating proactive vulnerability management for containerized applications using the AWS cloud-native toolchain.
 
