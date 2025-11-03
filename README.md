@@ -16,7 +16,7 @@ This demo also shows the real-world process of debugging a failed container depl
 
 4. Deploy: The scanned image was deployed as a serverless container using AWS Fargate and Elastic Container Service (ECS).
 
-### ☁️DEMO 1: The "Setup" - Configuring the Scan
+## ☁️DEMO 1: The "Setup" - Configuring the Scan
 
 First, the ECR registry was configured with an "Enhanced scanning" rule. This rule was set to trigger a "Scan on push" for any image pushed to the wiz-secure-app repository.
 
@@ -28,7 +28,7 @@ After pushing the container, the scan ran automatically and found 1 High, 1 Medi
 
 ![Screenshot of The Vulnerability Report](https://github.com/mymanerik/aws-container-security-demo/blob/master/Screen%20Shot%202.png?raw=true)
 
-### ☁️DEMO 3: The "Proof" - The Final Deployment
+## ☁️DEMO 3: The "Proof" - The Final Deployment
 
 After debugging and pushing a fixed image, the container was successfully deployed to a serverless AWS Fargate task. The application is live and accessible via its public IP address on port 5000.
 
