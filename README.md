@@ -34,16 +34,16 @@ After debugging and pushing a fixed image, the container was successfully deploy
 
 ![Screenshot of Final Deployment](https://github.com/mymanerik/aws-container-security-demo/blob/master/Screenshot%203.png?raw=true)
 
-### Skills Demonstrated
+# Skills Demonstrated
 
-* Container Security: Proactive vulnerability scanning (CVEs) using AWS ECR.
+1. Container Security: Proactive vulnerability scanning (CVEs) using AWS ECR.
 
-* Container Orchestration: Serverless container deployment with AWS Fargate & ECS.
+2. Container Orchestration: Serverless container deployment with AWS Fargate & ECS.
 
-* Cloud-Native Debugging: Analyzed CloudWatch logs to diagnose and fix a container crash (ImportError due to dependency conflict).
+3. Cloud-Native Debugging: Analyzed CloudWatch logs to diagnose and fix a container crash (ImportError due to dependency conflict).
 
-* CI/CD Pipeline: Manually simulated a CI/CD flow (Build, Scan, Tag, Push, Deploy).
+4. CI/CD Pipeline: Manually simulated a CI/CD flow (Build, Scan, Tag, Push, Deploy).
 
-* AWS Services: ECR, ECS, Fargate, IAM Roles, Security Groups, CloudWatch Logs.
+5. AWS Services: ECR, ECS, Fargate, IAM Roles, Security Groups, CloudWatch Logs.
 
-Infrastructure as Code (IaC): Docker (Dockerfile).
+6. Infrastructure as Code (IaC): Docker (Dockerfile).
