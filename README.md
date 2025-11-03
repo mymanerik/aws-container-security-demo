@@ -6,7 +6,7 @@ Goal: To build, scan, and deploy a container, proving the ability to identify an
 
 This demo also shows the real-world process of debugging a failed container deployment by analyzing logs, patching a dependency vulnerability (Flask/Werkzeug incompatibility), and pushing a fixed image.
 
-### The Process
+# The Process
 
 1. Containerize: A simple Python Flask application was containerized using Docker. (See Dockerfile)
 
@@ -16,25 +16,25 @@ This demo also shows the real-world process of debugging a failed container depl
 
 4. Deploy: The scanned image was deployed as a serverless container using AWS Fargate and Elastic Container Service (ECS).
 
-### DEMO 1: The "Setup" - Configuring the Scan
+# DEMO 1: The "Setup" - Configuring the Scan
 
 First, the ECR registry was configured with an "Enhanced scanning" rule. This rule was set to trigger a "Scan on push" for any image pushed to the wiz-secure-app repository.
 
 ![Screenshot of ECR Scan Configuration](https://github.com/mymanerik/aws-container-security-demo/blob/master/Screen%20Shot%201.png?raw=true)
 
-### DEMO 2: The "Result" - The Vulnerability Report
+# DEMO 2: The "Result" - The Vulnerability Report
 
 After pushing the container, the scan ran automatically and found 1 High, 1 Medium, and 1 Low vulnerability in the container image and its base layers. This proves the ability to catch CVEs before deployment.
 
 ![Screenshot of The Vulnerability Report](https://github.com/mymanerik/aws-container-security-demo/blob/master/Screen%20Shot%202.png?raw=true)
 
-### DEMO 3: The "Proof" - The Final Deployment
+# DEMO 3: The "Proof" - The Final Deployment
 
 After debugging and pushing a fixed image, the container was successfully deployed to a serverless AWS Fargate task. The application is live and accessible via its public IP address on port 5000.
 
 ![Screenshot of Final Deployment](https://github.com/mymanerik/aws-container-security-demo/blob/master/Screenshot%203.png?raw=true)
 
-## Skills Demonstrated
+### Skills Demonstrated
 
 * Container Security: Proactive vulnerability scanning (CVEs) using AWS ECR.
 
