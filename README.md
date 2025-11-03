@@ -36,14 +36,14 @@ After debugging and pushing a fixed image, the container was successfully deploy
 
 # 📖Skills Demonstrated
 
-1. Container Security: Proactive vulnerability scanning (CVEs) using AWS ECR.
+* Container Security: Proactive vulnerability scanning (CVEs) using AWS ECR.
 
-2. Container Orchestration: Serverless container deployment with AWS Fargate & ECS.
+* Container Orchestration: Serverless container deployment with AWS Fargate & ECS.
 
-3. Cloud-Native Debugging: Analyzed CloudWatch logs to diagnose and fix a container crash (ImportError due to dependency conflict).
+* Cloud-Native Debugging: Analyzed CloudWatch logs to diagnose and fix a container crash (ImportError due to dependency conflict).
 
-4. CI/CD Pipeline: Manually simulated a CI/CD flow (Build, Scan, Tag, Push, Deploy).
+* CI/CD Pipeline: Manually simulated a CI/CD flow (Build, Scan, Tag, Push, Deploy).
 
-5. AWS Services: ECR, ECS, Fargate, IAM Roles, Security Groups, CloudWatch Logs.
+* AWS Services: ECR, ECS, Fargate, IAM Roles, Security Groups, CloudWatch Logs.
 
-6. Infrastructure as Code (IaC): Docker (Dockerfile).
+* Infrastructure as Code (IaC): Docker (Dockerfile).
