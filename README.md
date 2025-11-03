@@ -20,19 +20,19 @@ DEMO 1: The "Setup" - Configuring the Scan
 
 First, the ECR registry was configured with an "Enhanced scanning" rule. This rule was set to trigger a "Scan on push" for any image pushed to the wiz-secure-app repository.
 
-'Screen Shot 1.jpg'
+![Screenshot of ECR Scan Configuration](https://github.com/mymanerik/aws-container-security-demo/blob/master/Screen%20Shot%201.png?raw=true)
 
 DEMO 2: The "Result" - The Vulnerability Report
 
 After pushing the container, the scan ran automatically and found 1 High, 1 Medium, and 1 Low vulnerability in the container image and its base layers. This proves the ability to catch CVEs before deployment.
 
-'Screen Shot 2.jpg'
+![Screenshot of The Vulnerability Report](https://github.com/mymanerik/aws-container-security-demo/blob/master/Screen%20Shot%202.png?raw=true)
 
 DEMO 3: The "Proof" - The Final Deployment
 
 After debugging and pushing a fixed image, the container was successfully deployed to a serverless AWS Fargate task. The application is live and accessible via its public IP address on port 5000.
 
-'Screenshot 3.png'
+![Screenshot of Final Deployment](https://github.com/mymanerik/aws-container-security-demo/blob/master/Screen%20Shot%203.png?raw=true)
 
 Skills Demonstrated
 
